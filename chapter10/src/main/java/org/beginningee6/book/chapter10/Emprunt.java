@@ -25,11 +25,11 @@ public class Emprunt {
     @Id
     @GeneratedValue
     private int idEmprunt;
-    @OneToOne (fetch=FetchType.LAZY)
-    @JoinColumn (nullable=false)
+    //@OneToOne (fetch=FetchType.LAZY)
+    //@JoinColumn (nullable=false)
     private Integer idAbonne;
-    @OneToOne (fetch=FetchType.LAZY)
-    @JoinColumn (nullable=false)
+    //@OneToOne (fetch=FetchType.LAZY)
+    //@JoinColumn (nullable=false)
     private String idBook;
     @Temporal(TemporalType.DATE)
     private Date dateEmprunt;
