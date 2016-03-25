@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core">
+	<h:head>
+	    <title>Emprunt livre</title>
+	</h:head>
+	<h:body>
+		<h1>Recapitulatif de l'emprunt</h1>
+	    <hr/>
+	    <h:panelGrid border="1">
+	    	<f:facet name="header">
+	    		<h:outputText value="Titre du livre"/>
+	    	</f:facet>
+	    	<h:outputText value="#{bookController.book.title}"/>
+	    </h:panelGrid>
+		<h:form>
+    		<h:link outcome="listBooks.xhtml" value="Retour liste livres"/>
+    	</h:form>
+	</h:body>
+</html>
