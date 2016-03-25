@@ -38,3 +38,10 @@ Tutoriel d'utilisation de git par HOUDAYER Pierre
 
 ##En cas de problèmes de connexions
 - [Terminal git bash] git config --global http.proxy https://proxy.univ-lemans.fr:3128
+
+
+## Génération du WAR
+- Se déplacer dans le dossier source dans un invte de dommande
+- Mettre en place l'environement (PATH) dans l'invite de commande avec le script "setenvp.bat" 
+- [Terminal] setenvp.bat
+- [Terminal] mvn install
