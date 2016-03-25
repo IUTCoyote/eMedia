@@ -41,7 +41,9 @@ Tutoriel d'utilisation de git par HOUDAYER Pierre
 
 
 ## Génération du WAR
-- Se déplacer dans le dossier source dans un invte de dommande
+- Se déplacer dans le dossier source dans un invte de commande
 - Mettre en place l'environement (PATH) dans l'invite de commande avec le script "setenvp.bat" 
 - [Terminal] setenvp.bat
+- Le fichier pom.xml doit être présent
 - [Terminal] mvn install
+- Le WAR est généré dans un dossier target
